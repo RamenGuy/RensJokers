@@ -23,10 +23,7 @@ return {
                         j_RensJokers_nichola = {
                             name = 'Nichola',
                             text = {
-                                 "When {C:attention}Blind{} is selected,",
-                                 "destroy Joker to the right",
-                                 "and permanently gain {X:mult,C:white}X#1#{} Mult",
-                                 "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)",
+                                 "",
                             }
                         },
                         j_RensJokers_thewall = {
