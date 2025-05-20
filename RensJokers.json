@@ -1,0 +1,17 @@
+{
+	"id": "RensJokers",
+	"name": "Ren's Jokers",
+	"display_name": "Ren's Jokers",
+	"author": ["Ren"],
+	"description": "Adds various Jokers, and maybe other things later.",
+	"prefix": "RensJokers",
+	"main_file": "RensJokers.lua",
+	"priority": 0,
+	"badge_colour": "558785",
+	"badge_text_colour": "FFFFFF",
+	"version": "1.0.0",
+	"dependencies": [
+		"Talisman (>=2.2.0~dev)",
+		"Steamodded (>=1.*)"
+	]
+}
