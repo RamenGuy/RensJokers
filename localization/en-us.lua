@@ -56,6 +56,16 @@ return {
                                     "{C:spades}Spade{} suit to give",
                                     "{X:mult,C:white} X#3# {} Mult when scored"
                             }
+                        },
+                        j_RensJokers_sacrificiallamb = {
+                            name = 'Sacrificial Lamb',
+                            text = {
+                                    "If the {C:attention}first discard{} of",
+                                    "the round has only {C:attention}1{} card,",
+                                    "destroy the card and give a {C:red}Red Seal{}",
+                                    "to the {C:attention}next scored card{}",
+                                    "{C:red,E:2}self destructs{}"
+                            }
                         }
                         
 		},
@@ -71,7 +81,8 @@ return {
         },
         misc = {
                     dictionary={
-                        k_burned_ex = "Burned!"
+                        k_burned_ex = "Burned!",
+                        k_sacrificed_ex = "Sacrificed!"
                     }
                 }
 }
