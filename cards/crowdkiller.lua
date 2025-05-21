@@ -14,7 +14,7 @@ SMODS.Joker{
   end,
     calculate = function(self, card, context)
                     if context.joker_main then
-                        if G.GAME.current_round.current_hand.handname == card.ability.extra.type then
+                        if G.GAME.current_round.current_hand.handname == card.ability.extra.type and #G.jokers.cards > 1 then
                                 local eligible = {}
                                 for k, v in ipairs(G.jokers.cards) do
                                     if not v.ability.eternal and v ~= card then 
