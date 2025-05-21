@@ -66,7 +66,17 @@ return {
                                     "to the {C:attention}next scored card{}",
                                     "{C:red,E:2}self destructs{}"
                             }
-                        }
+                        },
+                        j_RensJokers_crowdkiller = {
+                            name = 'Crowdkiller',
+                            text = {
+                                    "If {C:attention}poker hand{} is a",
+                                    "{C:attention}#2#{}, destroy a random Joker",
+                                    "and permanently add {X:mult,C:white} X1 {}",
+                                    "its sell value to this Joker",
+                                    "{C:inactive}(Currently {X:mult,C:white}X#1#{C:inactive} Mult)",
+                            }
+                        }      
                         
 		},
                 Blind = {
