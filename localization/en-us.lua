@@ -23,7 +23,9 @@ return {
                         j_RensJokers_nichola = {
                             name = 'Nichola',
                             text = {
-                                 "",
+                                 "Retrigger all played {C:attention}Queens{} twice,",
+                                 "played {C:attention}Queens{} with enhancements or",
+                                 "editions gain {X:chips,C:white}X#2#{} Chips"
                             }
                         },
                         j_RensJokers_thewall = {
