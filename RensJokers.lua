@@ -5,6 +5,12 @@ SMODS.Atlas({
     px = 71,
     py = 95,
 })
+SMODS.Atlas({ 
+    key = "rentarots",
+    path = "RenTarots.png", 
+    px = 65,
+    py = 95,
+})
 SMODS.Atlas({
 	key = "modicon",
 	path = "icon.png",
@@ -14,7 +20,7 @@ SMODS.Atlas({
 SMODS.Atlas({
 	key = "renblinds",
 	atlas_table = "ANIMATION_ATLAS",
-	path = "RenBlinds.png",
+	path = "RenBlinds.png", 
 	px = 34,
 	py = 34,
 	frames = 21,
@@ -37,5 +43,10 @@ end
 local subdir = "blinds"
 local blinds = NFS.getDirectoryItems(SMODS.current_mod.path .. subdir)
 for _, filename in pairs(blinds) do
+    assert(SMODS.load_file(subdir .. "/" .. filename))()
+end
+local subdir = "consumables/tarot"
+local tarot = NFS.getDirectoryItems(SMODS.current_mod.path .. subdir)
+for _, filename in pairs(tarot) do
     assert(SMODS.load_file(subdir .. "/" .. filename))()
 end

@@ -57,7 +57,25 @@ return {
                                     "played cards with",
                                     "{C:spades}Spade{} suit to give",
                                     "{X:mult,C:white} X#3# {} Mult when scored"
-                            }
+                            },
+                            unlock = {
+                                "Have at least {E:1,C:attention}#1#",
+                                "cards with {E:1,C:attention}#2#",
+                                "suit in your deck",
+                            },
+                        },
+                        j_RensJokers_heartpearl = {
+                            name = 'Heart Pearl',
+                            text = {
+                                    "Played cards with",
+                    "{C:hearts}Heart{} suit give",
+                    "{C:chips}+#1#{} Chips when scored",
+                            },
+                            unlock = {
+                                "Have at least {E:1,C:attention}#1#",
+                                "cards with {E:1,C:attention}#2#",
+                                "suit in your deck",
+                            },
                         },
                         j_RensJokers_sacrificiallamb = {
                             name = 'Sacrificial Lamb',
@@ -87,6 +105,15 @@ return {
                             text = {
                                     "1 in 4 chance for",
                                     "played cards to be destroyed",
+                            }
+                        }
+                },
+                Tarot = {
+                        c_RensJokers_councillor = {
+                            name = 'The Councillor',
+                            text = {
+                                    "Gain {C:blue}+#1#{} Hands and",
+                                    "{C:red}+#2#{} Discards"
                             }
                         }
                 },
