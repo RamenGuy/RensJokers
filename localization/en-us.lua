@@ -113,7 +113,8 @@ return {
                             name = 'The Councillor',
                             text = {
                                     "Gain {C:blue}+#1#{} Hands and",
-                                    "{C:red}+#2#{} Discards"
+                                    "{C:red}+#2#{} Discards for the",
+                                    "remainder of this blind"
                             }
                         }
                 },
